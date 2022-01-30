@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
+import UploadFiles from "./components/UploadFiles";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p></p>
+        <UploadFiles />
       </header>
     </div>
   );
